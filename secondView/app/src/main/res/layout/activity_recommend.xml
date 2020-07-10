@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundusual"
+    tools:context=".RecommendActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/recommend1"
+            android:layout_width="328dp"
+            android:layout_height="72dp"
+            android:background="@color/colorBack"
+            android:text="제네베라스페이스\n서울시 강남구 역삼동 642-6" />
+
+        <ImageButton
+            android:id="@+id/good1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbup"
+            android:layout_toRightOf="@+id/recommend1"
+             />
+
+        <ImageButton
+            android:id="@+id/bad1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbdown"
+            android:layout_below="@+id/good1"
+            android:layout_toRightOf="@+id/recommend1"
+             />
+
+        <TextView
+            android:id="@+id/textgood1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/good1"
+            android:text="254" />
+
+        <TextView
+            android:id="@+id/textbad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textgood1"
+            android:layout_toRightOf="@+id/bad1"
+            android:text="12" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1">
+
+        <Button
+            android:id="@+id/recommend2"
+            android:layout_width="328dp"
+            android:layout_height="72dp"
+            android:background="@color/colorBack"
+            android:text="크레프트 아일랜드 강남역\n서초동 1317-31 세계빌딩 1층 크래프트아일랜드" />
+
+        <ImageButton
+            android:id="@+id/good2"
+            android:layout_toRightOf="@+id/recommend2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbup" />
+
+        <ImageButton
+            android:id="@+id/bad2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbdown"
+            android:layout_below="@+id/good2"
+            android:layout_toRightOf="@+id/recommend2"
+             />
+
+        <TextView
+            android:id="@+id/textgood2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/good2"
+            android:text="128" />
+
+        <TextView
+            android:id="@+id/textbad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textgood2"
+            android:layout_toRightOf="@+id/bad2"
+            android:text="2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout2">
+
+
+        <Button
+            android:id="@+id/recommend3"
+            android:layout_width="328dp"
+            android:layout_height="72dp"
+            android:background="@color/colorBack"
+            android:text="느린마을양조장 강남점\n서초동 1316-28 우송빌딩 지하 1층" />
+
+        <ImageButton
+            android:id="@+id/good3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbup"
+            android:layout_toRightOf="@+id/recommend3"
+             />
+
+        <ImageButton
+            android:id="@+id/bad3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbdown"
+            android:layout_below="@+id/good3"
+            android:layout_toRightOf="@+id/recommend3"
+             />
+
+        <TextView
+            android:id="@+id/textgood3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="92"
+            android:layout_toRightOf="@+id/good3"/>
+
+        <TextView
+            android:id="@+id/textbad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textgood3"
+            android:layout_toRightOf="@+id/bad3"
+            android:text="58" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout4">
+
+
+        <Button
+            android:id="@+id/recommend4"
+            android:layout_width="328dp"
+            android:layout_height="72dp"
+            android:background="@color/colorBack"
+            android:text="미소 다이닝\n역삼동 820-1 로하스에비뉴빌딩 B2" />
+
+        <ImageButton
+            android:id="@+id/good4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbup"
+            android:layout_toRightOf="@+id/recommend4" />
+
+        <ImageButton
+            android:id="@+id/bad4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbdown"
+            android:layout_below="@+id/good4"
+            android:layout_toRightOf="@+id/recommend4"
+             />
+
+        <TextView
+            android:id="@+id/textgood4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14"
+            android:layout_toRightOf="@+id/good4"/>
+
+        <TextView
+            android:id="@+id/textbad4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textgood4"
+            android:layout_toRightOf="@+id/bad4"
+            android:text="2" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout3">
+
+
+        <Button
+            android:id="@+id/recommend5"
+            android:layout_width="328dp"
+            android:layout_height="72dp"
+            android:background="@color/colorBack"
+            android:text="AY라운지\n역삼동 819-9 제리스플레닛 호텔 지하 1,2F" />
+
+        <ImageButton
+            android:id="@+id/good5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbup"
+            android:layout_toRightOf="@+id/recommend5"
+             />
+
+        <ImageButton
+            android:id="@+id/bad5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/thumbdown"
+            android:layout_below="@+id/good5"
+            android:layout_toRightOf="@+id/recommend5"
+             />
+
+        <TextView
+            android:id="@+id/textgood5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="38"
+            android:layout_toRightOf="@+id/good5"/>
+
+        <TextView
+            android:id="@+id/textbad5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textgood5"
+            android:layout_toRightOf="@+id/bad5"
+            android:text="8" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

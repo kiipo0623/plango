@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "856500225957",
+    "firebase_url": "https://kusitms8.firebaseio.com",
+    "project_id": "kusitms8",
+    "storage_bucket": "kusitms8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856500225957:android:886149cb0152dd853f8a4c",
+        "android_client_info": {
+          "package_name": "com.example.secondview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856500225957-rs5sa21e36crt4mmmc5rqoj5tektibq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.secondview",
+            "certificate_hash": "bddb31a69bbe94f1ad6da95006aceb288e0b00df"
+          }
+        },
+        {
+          "client_id": "856500225957-eq4iqub7948jon8dhi2dq859m3kq1ck9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJHyxVJGT7IvWH8btBoI-YDFCl7GLetNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856500225957-eq4iqub7948jon8dhi2dq859m3kq1ck9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
